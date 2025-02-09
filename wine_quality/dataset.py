@@ -27,7 +27,7 @@ def main(
 
 def load_raw_data(filename: str, delimiter=","):
     input_path: Path = RAW_DATA_DIR / filename
-    # Load CSV using the specified delimiter (defaults to ',')
+
     return pd.read_csv(input_path, delimiter=delimiter)
 
 
